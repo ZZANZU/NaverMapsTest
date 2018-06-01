@@ -6,13 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.nhn.android.maps.NMapView
-        android:id="@+id/naver_mapview"
+    <FrameLayout
+        android:id="@+id/naver_map_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
-
-
-    </com.nhn.android.maps.NMapView>
+        />
 
 </LinearLayout>
